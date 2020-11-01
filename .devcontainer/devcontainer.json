@@ -30,6 +30,7 @@
 		"source=${localWorkspaceFolder}/.zipline,target=/root/.zipline,type=bind,consistency=cached"
 	],
 	"containerEnv": {
-		"QUANDL_API_KEY": "YOUR_QUANDL_API_KEY"
+		"QUANDL_API_KEY": "YOUR_QUANDL_API_KEY",
+		"PYTHONPATH": "/workspaces/quant/src"
 	}
 }
