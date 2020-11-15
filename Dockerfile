@@ -1,6 +1,4 @@
-FROM quantopian/zipline:latest
+FROM quantopian/zipline:trading_evolved
 
-# Fix No module named 'numpy.testing.nosetester'
-#  see https://bit.ly/2GdLzrc
-RUN pip install -U scipy
-RUN pip install pyfolio
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
