@@ -31,6 +31,6 @@
 	],
 	"containerEnv": {
 		"QUANDL_API_KEY": "YOUR_QUANDL_API_KEY",
-		"PYTHONPATH": "/workspaces/quant/src:/root/.zipline"
+		"PYTHONPATH": "${containerWorkspaceFolder}/src:/root/.zipline"
 	}
 }
