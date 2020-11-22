@@ -24,7 +24,7 @@ Download and install the following software:
 
 2. Clone this project.
 
-3. Open [devcontainer.json](./.devcontainer/devcontainer.json) and replace the value of `QUANDL_API_KEY` with your own API key (line 33).
+3. Open [devcontainer.json](./.devcontainer/devcontainer.json) and replace the value of `QUANDL_API_KEY` with your own API key (line 33). Click [here](https://help.quandl.com/article/320-where-can-i-find-my-api-key) for details on how to retrieve your Quandle API key.
 
 4. In VS Code, open this project's root directory in a container defined by [Dockerfile](./Dockerfile).
 
